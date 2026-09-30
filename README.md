@@ -3,7 +3,7 @@
 Live site: https://cityclub.chernivtsi.space
 
 ## About
-City Club European — готель у Чернівцях. Односторінковий лендинг без фото (`photos_source: null`): типографіка та CSS/SVG-графіка.
+City Club European — готель у Чернівцях. Односторінковий лендинг. Фото закладу немає (`photos_source: null`), тому hero типографічний (CSS/SVG), а єдині фото — міста Чернівців з Pexels (див. Photos).
 
 ## Hero concept
 Клубна картка: темно-синя пластикова карта з чипом, голографічним відблиском і «тисненим» City Club European, адресою та часом заїзду/виїзду.
@@ -35,6 +35,13 @@ Booking.com 8.8/10 (1955), Google 4.3/5 (531). Знімок на 30.09.2026, п�
 
 ## Forms
 HotelOS (`ch-cityclub`): `stay-request` (проживання). Документ `hotels/ch-cityclub` у Firestore треба створити вручну, інакше правила відхилять заявки.
+
+## Photos
+Лише фото міста (не готелю), з Pexels, підключені за прямими посиланнями images.pexels.com (без копій у репо), з підписами та авторами на сторінці:
+
+- Резиденція буковинських митрополитів, нині Чернівецький університет: pexels.com/photo/20843732 (Karina Karina)
+- Чернівці крізь арку: pexels.com/photo/17265268 (Андрій Копічевський)
+- Храм Резиденції митрополитів: pexels.com/photo/38163644 (Natalia Sevruk)
 
 ## SEO
 Title і description з маніфесту, canonical, Open Graph, `geo.*`, JSON-LD `Hotel` лише з підтвердженими полями (без numberOfRooms, starRating, aggregateRating), `robots.txt`, `sitemap.xml`, `404.html`.
