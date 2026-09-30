@@ -34,7 +34,7 @@ Booking.com 8.8/10 (1955), Google 4.3/5 (531). Знімок на 30.09.2026, п�
 Кількість номерів, зірковість (джерела дають і 2★, і 3★), email, сайт, Instagram, «центр міста». Виїзд 00:00–12:00 показано як «до 12:00».
 
 ## Forms
-HotelOS (`kp-cityclub`): `stay-request` (проживання). Документ `hotels/kp-cityclub` у Firestore треба створити вручну, інакше правила відхилять заявки.
+HotelOS (`ch-cityclub`): `stay-request` (проживання). Документ `hotels/ch-cityclub` у Firestore треба створити вручну, інакше правила відхилять заявки.
 
 ## SEO
 Title і description з маніфесту, canonical, Open Graph, `geo.*`, JSON-LD `Hotel` лише з підтвердженими полями (без numberOfRooms, starRating, aggregateRating), `robots.txt`, `sitemap.xml`, `404.html`.
