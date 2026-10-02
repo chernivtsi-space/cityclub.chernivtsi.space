@@ -45,10 +45,20 @@ Booking.com 8.8/10 (1955), Google 4.3/5 (531). Знімок на 30.09.2026, п�
 - Address: вул. Івасюка, 4, Чернівці
 
 ## Sources
-Booking.com listing text (description, rooms, breakfast, house rules; guest reviews ignored), captured 30.09.2026, plus the official site where there is one. Verbatim quotes: `facts.json` in the build scratchpad.
+Booking.com listing text (description, rooms, breakfast, house rules; guest reviews ignored), captured 30.09.2026, plus the official site where there is one. Verbatim quotes: `shared/build/facts.json` у робочому просторі (поза репозиторієм сайту).
+
+## Property-specific sections
+- `#family` Для сім’ї та компанії
 
 ## Not published
 Кількість номерів, зірковість (джерела дають і 2★, і 3★), email, сайт, Instagram, «центр міста». Виїзд 00:00–12:00 показано як «до 12:00».
+
+## Content TODO (не показується на сторінці)
+- [ ] TODO: уточнити кількість номерів і зірковість (джерела дають 2★ і 3★)
+- [ ] TODO: перевірити, чи є ресторан і ліфт (згадані лише у відгуках гостей)
+- [ ] TODO: Booking дає місткість лише для студіо й люкса — уточнити для решти номерів
+- [ ] TODO: отримати власні фото закладу (фасад, рецепція, номери, ванні) і погодити їх використання — потім додати галерею
+- [ ] TODO: перевірити ціни й наявність через сам готель; на сторінці цін немає
 
 ## Forms
 HotelOS (`ch-cityclub`): `stay-request` (проживання). Документ `hotels/ch-cityclub` у Firestore треба створити вручну, інакше правила відхилять заявки.
